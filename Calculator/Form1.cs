@@ -28,7 +28,7 @@ namespace Calculator
         {
             int subs;
             subs = Convert.ToInt32(textBox1.Text) - Convert.ToInt32(textBox2.Text);
-            textBox4.Text = Convert.ToString(sum);
+            textBox4.Text = Convert.ToString(subs);
         }
     }
 }
